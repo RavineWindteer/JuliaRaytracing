@@ -60,7 +60,7 @@ function main()
         defocus_angle = 0.6,
         focus_dist = 10.0)
 
-    render(cam, "image.png", world)
+    render(cam, "./renders/image.png", world)
 end
 
 main()
